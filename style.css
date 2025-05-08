@@ -77,7 +77,7 @@ main {
     line-height: 1.8rem;
 }
 
-.texto-entenda h3, .metas h3{
+.texto-entenda h3, .metas h3, .cronograma h3{
     padding-bottom: 24px;
 }
 
@@ -119,4 +119,9 @@ main {
     width: 332px;
     line-height: 20px;
     margin: 0 8px;
+}
+
+.cronograma {
+    padding: 48px 32px;
+    background-color: #E3E7F1;
 }

@@ -1,17 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .nav-bar{
-    line-height: 48px;
+    line-height: 64px;
     background-color: #7F8FC7;
 }
 
 .nav-content {
     display: inline-flex;
-    padding: 16px;
+    /* padding: 16px; */
 }
 
 .nav-content > ol > a {
@@ -23,10 +23,11 @@
 .nav-content ol {
     margin: 0 16px;
     color: #FFF;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 200;
     cursor: pointer;
     transition: transform 0.2s ease-in-out, text-decoration 0.3s ease-in-out;
-    text-underline-offset: 4px;
+    text-underline-offset: 5px;
 }
 
 .nav-content ol:hover{
@@ -35,4 +36,52 @@
 }
 
 .info {
+    background-image: url(assets/cidades-inteligentes-banner.png);
+    background: linear-gradient(#7F8FC799, #7F8FC799), url(assets/cidades-inteligentes-banner.png);
+    background-size: cover;
+    height: 512px;
+    background-position: center;
+}
+
+.info-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img{
+    height: auto;
+    width: 24%;
+}
+
+main {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.entenda {
+    display: flex;
+    background-color: #EDF1F7;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px 32px;
+    gap: 32px;
+}
+
+.texto-entenda{
+    width: 55%;
+    line-height: 1.8rem;
+}
+
+.texto-entenda h3{
+    padding-bottom: 24px;
+}
+
+.youtube-video {
+    width: 40%;
+    margin-left: auto;
+    padding-top: 24px;
 }

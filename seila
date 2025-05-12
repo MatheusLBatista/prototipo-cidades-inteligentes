@@ -1,0 +1,33 @@
+.metas {
+    background-color: #F5F5F5;
+    padding: 48px 32px;
+}
+
+.card-metas{
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card-metas img {
+    border-radius: 1.05rem 1.05rem 0 0 ;
+    height: 210px;
+    width: 332px;
+}
+
+.card-metas h4 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-metas p{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.card {
+    width: 332px;
+    line-height: 20px;
+    margin: 0 8px;
+}

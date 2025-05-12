@@ -58,8 +58,8 @@
 }
 
 main {
-    max-width: fit-content;
-    margin: 0 auto;
+    max-width: fit-content; 
+    margin: 0 auto; 
 }
 
 .entenda {
@@ -87,38 +87,31 @@ main {
     padding-top: 24px;
 }
 
-.metas {
-    background-color: #F5F5F5;
+.metas{
+    background-color: #7F8FC7;
     padding: 48px 32px;
 }
 
-.card-metas{
+.metas-gallery {
     display: flex;
-    /* justify-content: flex-start; */
     flex-wrap: wrap;
-    gap: 32px;
-}
-
-.card-metas img {
-    border-radius: 1.05rem 1.05rem 0 0 ;
-    height: 210px;
-    width: 332px;
-}
-
-.card-metas h4 {
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.card-metas p{
-    font-size: 12px;
-    margin-top: 4px;
+    flex-direction: row;
+    gap: 8px;
+    margin: 4px;
+    justify-content: space-between;
 }
 
 .card {
-    width: 332px;
-    line-height: 20px;
-    margin: 0 8px;
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.card-image {
+    width: 100%;
 }
 
 .cronograma {
